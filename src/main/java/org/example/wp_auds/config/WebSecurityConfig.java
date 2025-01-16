@@ -79,8 +79,8 @@ public class WebSecurityConfig {
         return new InMemoryUserDetailsManager(admin,user);
     }
 
-    @Override
-    protected void configure (AuthenticationManagerBuilder auth) throws Exception{
-        auth.authenticationProvider(customUsernamePasswordAuthenticationProvider);
-    }
+//    @Override
+//    protected void configure (AuthenticationManagerBuilder auth) throws Exception{
+//        auth.authenticationProvider(customUsernamePasswordAuthenticationProvider);
+//    }
 }

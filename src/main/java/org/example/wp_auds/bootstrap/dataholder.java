@@ -24,9 +24,6 @@ public class dataholder {
         categories.add(new Category("Movies", "Movies category"));
         categories.add(new Category("Software", "Software category"));
 
-        users.add(new User("elena.taleska", "et", "elena", "taleska"));
-        users.add(new User("kire.taleski", "kt", "kire", "taleski"));
-
         Manufacturer manufacturer=new Manufacturer("Nike", "Ny");
         manufacturers.add(manufacturer);
         Category category=new Category("Sport", "Sport category");
